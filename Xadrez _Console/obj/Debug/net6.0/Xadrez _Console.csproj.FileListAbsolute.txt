@@ -1,0 +1,15 @@
+C:\Users\gabriel.gomes\Documents\Projetos C#\Xadrez _Console\Xadrez _Console\bin\Debug\net6.0\Xadrez _Console.exe
+C:\Users\gabriel.gomes\Documents\Projetos C#\Xadrez _Console\Xadrez _Console\bin\Debug\net6.0\Xadrez _Console.deps.json
+C:\Users\gabriel.gomes\Documents\Projetos C#\Xadrez _Console\Xadrez _Console\bin\Debug\net6.0\Xadrez _Console.runtimeconfig.json
+C:\Users\gabriel.gomes\Documents\Projetos C#\Xadrez _Console\Xadrez _Console\bin\Debug\net6.0\Xadrez _Console.dll
+C:\Users\gabriel.gomes\Documents\Projetos C#\Xadrez _Console\Xadrez _Console\bin\Debug\net6.0\Xadrez _Console.pdb
+C:\Users\gabriel.gomes\Documents\Projetos C#\Xadrez _Console\Xadrez _Console\obj\Debug\net6.0\Xadrez _Console.csproj.AssemblyReference.cache
+C:\Users\gabriel.gomes\Documents\Projetos C#\Xadrez _Console\Xadrez _Console\obj\Debug\net6.0\Xadrez _Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabriel.gomes\Documents\Projetos C#\Xadrez _Console\Xadrez _Console\obj\Debug\net6.0\Xadrez _Console.AssemblyInfoInputs.cache
+C:\Users\gabriel.gomes\Documents\Projetos C#\Xadrez _Console\Xadrez _Console\obj\Debug\net6.0\Xadrez _Console.AssemblyInfo.cs
+C:\Users\gabriel.gomes\Documents\Projetos C#\Xadrez _Console\Xadrez _Console\obj\Debug\net6.0\Xadrez _Console.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.gomes\Documents\Projetos C#\Xadrez _Console\Xadrez _Console\obj\Debug\net6.0\Xadrez _Console.dll
+C:\Users\gabriel.gomes\Documents\Projetos C#\Xadrez _Console\Xadrez _Console\obj\Debug\net6.0\refint\Xadrez _Console.dll
+C:\Users\gabriel.gomes\Documents\Projetos C#\Xadrez _Console\Xadrez _Console\obj\Debug\net6.0\Xadrez _Console.pdb
+C:\Users\gabriel.gomes\Documents\Projetos C#\Xadrez _Console\Xadrez _Console\obj\Debug\net6.0\Xadrez _Console.genruntimeconfig.cache
+C:\Users\gabriel.gomes\Documents\Projetos C#\Xadrez _Console\Xadrez _Console\obj\Debug\net6.0\ref\Xadrez _Console.dll
