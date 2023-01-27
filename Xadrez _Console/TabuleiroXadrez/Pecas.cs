@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Xadrez__Console.Tabuleiro
 {
-    internal class Peca
+    internal class Pecas
     {
 
         public Posicao Posicao { get; set; }
         public Cor Cor { get; protected set; }
         public int QteMovimentos { get; protected set; }
-        public Tabuleiro Tabuleiro { get; protected set; }
+        public TabuleiroJogo Tabuleiro { get; protected set; }
 
-        public Peca (Posicao posicao, Cor cor, Tabuleiro tabuleiro)
+        public Pecas (Posicao posicao, Cor cor, TabuleiroJogo tabuleiro)
         {
             Posicao = posicao;
             Cor = cor;
