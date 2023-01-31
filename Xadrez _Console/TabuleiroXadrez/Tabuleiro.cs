@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Xadrez__Console.TabuleiroXadrez;
 
 namespace Xadrez__Console.Tabuleiro
 {
@@ -22,16 +20,50 @@ namespace Xadrez__Console.Tabuleiro
 
         }
 
-        public Pecas Peca (int linha, int coluna)
+        public Pecas Peca(int linha, int coluna)
         {
             return PecasTabuleiro[linha, coluna];
         }
+        public Pecas Peca(Posicao posicao)
+        {
+            return PecasTabuleiro[posicao.LinhasPosicao, posicao.ColunasPosicao];
+        }
+
+
+
+        public bool ExistePeca(Posicao posicao)
+        {
+            ValidarPosicao(posicao);
+            return Peca(posicao) != null;
+        }
+
 
         public void ColocarPeca(Pecas p, Posicao posicao)
         {
+            if (ExistePeca(posicao))
+            {
+                throw new TabuleiroExeception("Já existe uma peça nessa posição! ");
+            }
             PecasTabuleiro[posicao.LinhasPosicao, posicao.ColunasPosicao] = p;
             p.Posicao = posicao;
         }
-       
+
+
+        public bool PosicaoValida(Posicao posicao)
+        {
+            if (posicao.LinhasPosicao < 0 || posicao.LinhasPosicao >= LinhasTabuleiro || posicao.ColunasPosicao < 0 || posicao.ColunasPosicao >= ColunasTabuleiro)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public void ValidarPosicao(Posicao posicao)
+        {
+            if (!PosicaoValida(posicao))
+            {
+                throw new TabuleiroXadrez.TabuleiroExeception("Posição inválida");
+            }
+        }
     }
 }
