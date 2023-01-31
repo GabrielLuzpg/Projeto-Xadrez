@@ -19,5 +19,10 @@ namespace Xadrez__Console.Tabuleiro
         }
 
 
+        public override string ToString()
+        {
+            return "" + LinhasPosicao +". " + ColunasPosicao;
+        }
+
     }
 }
